@@ -1,0 +1,94 @@
+header img{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: rgb(169, 169, 243);
+
+}
+nav a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+main{
+    margin-left: 50px;;
+}
+a:hover{
+    background-color: white;
+    color: rgb(139, 0, 30);
+}
+th,table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th{
+    background-color: lightgrey;
+}
+
+/* style for stories.html */
+.stories{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article img{
+    width: 100%;
+    opacity: 80%;
+}
+article{
+    display: inline-block;
+    width: 30%;
+    margin: 20px 5px;
+    box-shadow:  5px 5px 5px grey;
+}
+
+/* style for contact.html */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin:  auto;
+    background-color: rgb(24, 167, 167);
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.container:hover{
+    background-color: darkgreen;
+    cursor:pointer;
+}
+
+form label{
+    display: block;
+    margin: 10px 5px;
+   
+
+}
+fieldset{
+    border: none;
+}
+legend{
+    display: none;
+}
+input[type=text],textarea,select{
+    width:100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+
+}
+textarea{
+    height: 200px;
+
+}
+#submitBtn{
+    margin: 0 auto;
+    display:block;
+}
